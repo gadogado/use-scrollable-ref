@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "pretty": true,
+    "sourceMap": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "build",
+    "lib": [
+      "es2022",
+      "dom"
+    ],
+    "importHelpers": true
+  },
+  "include": ["spec", "src"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "esm",
+    "spec"
+  ],
+}
