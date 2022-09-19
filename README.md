@@ -1,7 +1,7 @@
 ![Build Status](https://github.com/gadogado/use-scrollable-ref/actions/workflows/main.yml/badge.svg)
-![NPM](https://img.shields.io/npm/v/use-scrollable-ref.svg)
+[![NPM](https://img.shields.io/npm/v/use-scrollable-ref.svg)](https://www.npmjs.com/package/use-scrollable-ref)
 
-# useScrollableRef hook
+# useScrollableRef
 
 > Get scroll events with an optional 'bottom reached' threshold for any DOM node that's attached with a ref.  
 
@@ -16,7 +16,7 @@ npm install use-scrollable-ref
 
 ```tsx
 import { useEffect } from "react";
-import useScrollableRef from 'use-scrollable-ref';
+import useScrollableRef from "use-scrollable-ref";
 
 export default function App() {
   // bottom is 75% of ref height
